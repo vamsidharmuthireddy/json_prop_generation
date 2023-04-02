@@ -46,7 +46,7 @@ All the data is present in 5 folders categorised according to the component type
 │ └── classification <- Notebook used to train the classification model. Contains conda requirements file
 │ └── generation <- Notebook used to train the text generation model. Contains prediction notebook. Contains conda requirements file
 │ └── eda <- EDA on the json file properties
-└───references <- Data dictionaries, manuals, and all other explanatory materials
+│ └── reports <- Contains EDA, and classification report
 
 ## Technologies Used
 
