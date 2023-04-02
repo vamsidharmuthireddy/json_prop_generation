@@ -33,20 +33,18 @@ All the data is present in 5 folders categorised according to the component type
 
 ## Directory Tree
 
-├─── README.md <- The top-level README for developers using this project.
-├───data
-│ └─── outputs <- EDA outputs
-│ └─── paths <- train, test dataframes containing image path, json path, flattened json properties as string
-├───reports <- Generated analysis as HTML, PDF, LaTeX, etc.
-│ └── figures <- Generated graphics and figures to be used in reporting
-├───models
-│ └── generation <- Models trained for text generation. Used to generate text from image
-│ └── classification <- Models trained for classification. Used to classify an image into a component class
-├───notebooks
-│ └── classification <- Notebook used to train the classification model. Contains conda requirements file
-│ └── generation <- Notebook used to train the text generation model. Contains prediction notebook. Contains conda requirements file
-│ └── eda <- EDA on the json file properties
-│ └── reports <- Contains EDA, and classification report
+├─── **README.md** <- The top-level README for developers using this project. </br>
+├───**data** </br>
+│ └─── **outputs** <- EDA outputs </br>
+│ └─── **paths** <- train, test dataframes containing image path, json path, flattened json properties as string </br>
+├─── **models** </br>
+│ └── **generation** <- Models trained for text generation. Used to generate text from image </br>
+│ └── **classification** <- Models trained for classification. Used to classify an image into a component class </br>
+├─── **notebooks** </br>
+│ └── **classification** <- Notebook used to train the classification model. Contains conda requirements file </br>
+│ └── **generation** <- Notebook used to train the text generation model. Contains prediction notebook. Contains conda requirements file </br>
+│ └── **eda** <- EDA on the json file properties </br>
+│ └── **reports** <- Contains EDA, and classification report </br>
 
 ## Technologies Used
 
